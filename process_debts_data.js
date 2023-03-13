@@ -64,4 +64,3 @@ exportSummarizedDataAsCSV = (debtsData) => {
 module.exports = {
     makeSummary
 }
-

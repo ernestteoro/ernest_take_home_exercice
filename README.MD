@@ -47,7 +47,7 @@ Carl,Beatrice,25.30`
 
 #### To install dependencies
 
-We are going to need these dependencies(csv-parser, mathjs, mocha, chai).
+We are going to need these dependencies( mocha, chai, csv-parser, mathjs).
 
 To install them run the command below to install them
 
@@ -60,7 +60,7 @@ To install them run the command below to install them
 * Make sure to add a header like `debtor,creditor,amount`
 * There is already a file name _data.csv_
 
-2. Run `node index`  and then provide the name of the `.csv` file containing debts data to be processed when you are asked to.
+2. Run `node index` and then provide the name of the `.csv` file containing debts data to be processed when you are asked to.
 3. After the app has run, a file named `summarized_debts_data.csv` is generated containing all summarized debts data
 
 #### Run unit test
