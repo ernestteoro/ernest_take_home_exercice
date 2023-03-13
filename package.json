@@ -1,0 +1,20 @@
+{
+  "name": "ernest_take_home_exercice",
+  "version": "1.0.0",
+  "description": "app to summarize monetary debts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unittest",
+    "unittest": "mocha test/{**,}/*.spec.js --timeout 5000 --slow 500 --exit"
+  },
+  "author": "Foromo Ernest TEORO",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "mathjs": "^11.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
